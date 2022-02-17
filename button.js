@@ -21,7 +21,7 @@ next.onclick = event => {
 } 
  
  
-prev.onclick = event => { 
+prev.onclick = event => {
     if(page > 1){ 
         page-- 
         count.textContent = page 
